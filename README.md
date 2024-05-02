@@ -42,3 +42,36 @@ This project focuses on analyzing food consumption patterns across different reg
 ## Dataset
 The generated datasets (`food_consumption.csv` and `online_shopping_data.csv`) are included for analysis and demonstration purposes. These datasets contain synthetic/random data and are used for illustration only. For real-world applications, replace these datasets with actual data.
 
+## Performance Metrics
+The performance metrics for the implemented algorithms are as follows:
+
+### Performance Metrics
+
+#### Collaborative Filtering (SVD) Metrics
+- RMSE: 5252.0044
+- RMSE for SVD: 5252.00
+- MAE: 4545.0072
+- MAE for SVD: 4545.01
+- FCP: 0.0000
+- FCP for SVD: 0.00
+- MSE for SVD: 27583550.06
+- MAE for SVD (scikit-learn): 4545.01
+
+#### Random Forest Regression Metrics
+- RMSE: 2849.0304
+- RMSE: 2849.03
+- MAE: 2479.4972
+- MAE: 2479.50
+- FCP: 0.0000
+- FCP: 0.00
+
+#### Collaborative Filtering (SVD) Metrics on Online Shopping Data
+- RMSE: 2868.9605
+- RMSE for SVD on online shopping data: 2868.96
+- MAE: 2495.3701
+- MAE for SVD on online shopping data: 2495.37
+- FCP: 0.0000
+- FCP for SVD on online shopping data: 0.00
+- MSE for SVD on online shopping data: 8230934.51
+- MAE for SVD on online shopping data (scikit-learn): 2495.37
+
